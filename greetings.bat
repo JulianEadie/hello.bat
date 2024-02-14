@@ -1,7 +1,7 @@
 @echo off
 color a 
 echo hello, how are you?(answer in only yes/no)
-sey /p input=
+set /p input=
 if /i %input%== yes goto good
 if /i %input%== no goto bye
 if /i %inpu%== yes,no goto
